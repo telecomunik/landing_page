@@ -1,0 +1,43 @@
+.header {
+    padding: 1rem 0;
+    background: rgb(7, 46, 100);
+    margin-bottom: 110px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-brand {
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-logo img {
+    display: block;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav-link {
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.header-nav-link:hover {
+    color: #b2e3fd;
+}
+
+.header-nav-link.active {
+    position: relative;
+}

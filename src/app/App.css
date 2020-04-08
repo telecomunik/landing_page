@@ -1,0 +1,5 @@
+.App {
+  background: #000 url(../main/bg3.png) center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}

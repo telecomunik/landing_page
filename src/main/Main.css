@@ -1,0 +1,74 @@
+.page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: 770px;
+}
+
+.container-main {
+    width: 100%;
+    max-width: 1030px;
+    margin: 50px auto;
+    padding: 0px 15px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    max-width: 578px;
+}
+
+.content-header {
+    margin-bottom: 35px;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: rgba(265, 265, 265, .6);
+    font-weight: 300;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 1.98rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.title span {
+    color: #2B7DED;
+}
+
+.text {
+    margin-bottom: 50px;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.btn {
+    line-height: 1.1;
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    background-color: #2B7DED;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 0;
+    padding: 12px 35px;
+    transition: background .2s linear;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1363d0;
+}
+
+.author {
+    position: absolute;
+    bottom: 0px;
+    right: -170px;
+    height: 90%;
+}
